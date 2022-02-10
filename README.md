@@ -4,8 +4,10 @@ Documentation of code for study: Quantification of near-work and peripheral defo
 
 Purpose: Gaze data is matched with 2D pixel image of a point cloud. Code extract and visualize
 
-A)	Accumulative figure of depth data at gaze coordinates 
+A)	Accumulative figure of depth data at gaze coordinates
+
 B)	Accumulative dioptric landscape matched at gaze coordinates
+
 
 A) Aim: data access to objective and subjective data distance to point of regard 
 Jupyter notebook, python: studyII_raw_data_dioptric_demand 
