@@ -9,7 +9,8 @@ A)	Accumulative figure of depth data at gaze coordinates
 B)	Accumulative dioptric landscape matched at gaze coordinates
 
 
-A) Aim: data access to objective and subjective data distance to point of regard 
+A) Aim: data access to objective and subjective data distance to point of regard
+
 Jupyter notebook, python: studyII_raw_data_dioptric_demand 
 -	extract distance to point of regard from all point clouds
 -	extract annotated labels and timestamps 
