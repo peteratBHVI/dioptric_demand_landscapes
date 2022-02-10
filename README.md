@@ -2,20 +2,27 @@
 
 Documentation of code for study: Quantification of near-work and peripheral defocus 
 
-Purpose: Gaze data is matched with 2D pixel image of a point cloud. Code extract and visualize
+Purpose: Gaze data is matched with 2D image of a point cloud. Code extract and visualize
 
 A)	Accumulative figure of depth data at gaze coordinates
 
 B)	Accumulative dioptric landscape matched at gaze coordinates
 
 
-A) Aim: data access to objective and subjective data distance to point of regard
+A) Aim: to compare objective and subjective data - distance to point of regard
+
+matlab: extract_gaze_depth_from_PoR.m
+-	extract distance to point of regard from all point clouds
+- apply clustering filter to validate depth data
+
+matlab: royale_LEVEL1_extract_depth_data_at_PoR.m
+- access point cloud
 
 Jupyter notebook, python: studyII_raw_data_dioptric_demand.jpynb 
--	extract distance to point of regard from all point clouds
--	extract annotated labels and timestamps 
+
+-	extract annotated labels and timestamps from eye-tracking data
 -	extract diary data 
--	visualize data 
+-	visualize all data 
 
 dependencies:
 from studyII_helpers_lib import DataAccess as get_px_meta
@@ -25,7 +32,7 @@ from studyII_helpers_lib import VisualizeData
 
 B)  Aim: Creates accumulative dioptric maps per participant / also if multiple recordings that are aligned at gaze coordinates from point cloud data and gaze estimates.  
 
-matlab: extract_clustered_depth_reference_PoR.mpl 
+matlab: extract_clustered_depth_reference_PoR.mlx 
 
 extract dioptric maps with reference point of regard (gaze coordinates)
 
@@ -46,6 +53,7 @@ clustered_depth_data_PoR_counter.csv
 Jupyter notebook, python: dioptric_landscapes_studyII.jpynb 
 
 summarises dioptric demand for participants
+and visualisation 
 
 dependencies:
 from studyII_helpers_lib import DataAccess as get_px_meta
