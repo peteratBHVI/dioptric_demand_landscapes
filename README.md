@@ -11,7 +11,7 @@ B)	Accumulative dioptric landscape matched at gaze coordinates
 
 A) Aim: data access to objective and subjective data distance to point of regard
 
-Jupyter notebook, python: studyII_raw_data_dioptric_demand 
+Jupyter notebook, python: studyII_raw_data_dioptric_demand.jpynb 
 -	extract distance to point of regard from all point clouds
 -	extract annotated labels and timestamps 
 -	extract diary data 
@@ -43,7 +43,7 @@ Output csv:
 clustered_depth_data_with_reference_PoR.csv
 clustered_depth_data_PoR_counter.csv
 
-Jupyter notebook, python: dioptric_landscapes_studyII 
+Jupyter notebook, python: dioptric_landscapes_studyII.jpynb 
 
 summarises dioptric demand for participants
 
